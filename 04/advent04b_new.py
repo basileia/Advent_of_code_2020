@@ -28,7 +28,6 @@ def valid_requirements(data):
 
 
 def valid_passport(selected_passport):
-    ''.join(i for i in selected_passport["hgt"] if i.isdigit())
     if not 1920 <= int(selected_passport["byr"]) <= 2002:
         return False
     if not 2010 <= int(selected_passport["iyr"]) <= 2020:
