@@ -53,11 +53,9 @@ def valid_passport(selected_passport):
     return True
 
 
-pas = []
 valid = 0
 for_validation = valid_requirements(data)
 for passport in for_validation:
     if valid_passport(passport):
-        pas.append(passport)
         valid += 1
 print(valid)
