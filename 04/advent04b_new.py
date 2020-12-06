@@ -1,6 +1,5 @@
 import re
-import json
-import difflib
+
 
 with open("input.txt", encoding="utf-8") as file:
     passports = file.read().split("\n\n")
