@@ -13,7 +13,6 @@ def get_sum(curr_bag):
     for bag in result:
         if curr_bag == bag:
             children = [item for item in result[bag]]
-    print(children)
     for child in children:
         if child == "no other bags":
             continue
